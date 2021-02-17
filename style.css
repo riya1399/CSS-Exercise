@@ -1,0 +1,95 @@
+.font-div h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:30px ;
+    font-size: 20px;
+
+} 
+
+.para1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+.para2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.para3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.para4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.background-div{
+    color: white;
+    background: url('./background.jpg') no-repeat center/cover;
+    background-position: right top;
+}
+
+.pseudo-div li:last-child {
+    background-color: #ff4a4a;
+}
+.pseudo-div li{
+    list-style-type:none;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+ul .item2{
+    background-color: #BACCD8 ;
+    cursor: pointer;
+
+}
+.item2:hover{
+    background-color:#407294 ;
+}
+li::before {content: "*"; color:#fd0000;
+    display: inline-block; width: 1em;
+
+}
+li::after{
+    content: "Item"; color:#fd0000;
+    display: inline-block; width: 1em;  
+}
+
+.combi1 + p{
+    background-color: #BAA4B5;
+}
+
+.combinator-div > .combi1{
+    background-color:#754A6C;
+}
+
+.combi2~p{
+    background-color: #BAA4B5;
+    font-weight: bold;
+}
+.combinator-div p{
+    color: white;
+}
+input[type=text] {
+    width: 200px;
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    background-color:#407294;
+  }
+  
+  input[type=button] {
+    width: 120px;
+    background-color: #799CB4;
+    display: block;
+    color:white;
+    cursor: pointer;
+  }
+  input[type=button]:hover{
+      background-color: #53809E;
+  }
